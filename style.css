@@ -1,0 +1,17 @@
+img {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+}
+
+.logo {
+	height: 80px;
+	width: 80px;
+}
