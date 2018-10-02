@@ -29,6 +29,7 @@ body {
     font-weight: 400;
     line-height: 1.66;
     float: left;
+    display: block;
 }
 
 header {
@@ -36,15 +37,27 @@ header {
 	z-index: -10;
 }
 
+ul {
+	width: 100%;
+	padding: 15px;
+	margin: 0px auto 0px auto; 
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px;
+	text-align: center;
+}
+
 footer {
-  padding: 30px 0;
-  clear: both;
+  padding: 30px 0; 
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 12px;
-  color: #fff;
-  color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  
 }
 
 
