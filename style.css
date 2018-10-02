@@ -16,5 +16,36 @@ img {
 	width: 80px;
 }
 
+body {
+    background: #fff;
+}
+
+body {
+	background-color: white;
+    color: #333;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.66;
+    float: left;
+}
+
+header {
+	position: relative;
+	z-index: -10;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
 
 
