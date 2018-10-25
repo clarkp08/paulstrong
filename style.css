@@ -1,3 +1,14 @@
+div {
+	position: relative;
+}
+
+.inner-image {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+
+
 img {
     height: 100%;
     left: 0;
@@ -9,6 +20,7 @@ img {
     -webkit-transform: none;
     transform: none;
     width: 100%;
+
 }
 
 .logo {
