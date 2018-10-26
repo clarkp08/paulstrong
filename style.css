@@ -21,12 +21,21 @@ img {
 }
 
 video {
-	width: 50%;
+	width: 100%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     border: 5px solid #000;
+}
+
+h1 {
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .logo {
@@ -46,18 +55,27 @@ video {
 
 #navigation {
 	background-color: #000;
-
-
+	font-family: sans-serif;
 }
 
+#navigation2 {
+	width: 100%;
+	padding: 15px;
+	margin: 0px auto 0px auto; 
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+
+
 body {
-    background: #fff;
+    background-image: url('images/leaves-pattern.png');
 }
 
 body {
 	background-color: white;
     color: #333;
-    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
     font-size: 0.9375rem;
     font-weight: 400;
@@ -80,6 +98,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    color: #000000;
+}
+
+.helplink {
+	color: blue;
 }
 
 
@@ -102,6 +125,15 @@ li {
 	display: inline;
 	margin: 10px 10px;
 	text-align: center;
+}
+
+a {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+#contact-form {
+	text-align: right;
 }
 
 
